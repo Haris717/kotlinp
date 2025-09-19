@@ -81,7 +81,7 @@ fun main (){
         is String-> "String of  $(a.length)"
         is Int-> "INt of  $(2*a)"
                 is Double-> "Double of  $(a/2)"
-                        is Boolean-> "Boolean value $a"
+                        is Boolean-> "Boolean value hgjgh$a"
                                 else-> "String of  $(a.length)"
 
     })
