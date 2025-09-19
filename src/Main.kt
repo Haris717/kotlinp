@@ -77,6 +77,8 @@ fun main (){
     val b : Any=8
     val c: Any=3.23
     val d: Any=true
+val dhss
+
     println(when(a){
         is String-> "String of  $(a.length)"
         is Int-> "INt of  $(2*a)"
